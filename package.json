@@ -1,0 +1,29 @@
+{
+  "name": "cats",
+  "version": "1.0.0",
+  "description": "\"A cats project for the folks at MapD\"",
+  "main": "./src/app.js",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "file-loader": "^0.10.1",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "webpack": "^2.1.0-beta.25",
+    "webpack-dev-server": "^2.1.0-beta.11"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --content-base ./src --open"
+  },
+  "repository": "https://github.com/ayyrickay/cats",
+  "author": "Ricky Holtz",
+  "license": "ISC"
+}
