@@ -1,3 +1,4 @@
+// understands how to update state tree for cards
 import { SET_CARDS, DELETE_CARD, GET_FACTS_FAILURE, GET_PICTURES_FAILURE } from './actions'
 
 const initialState = {
