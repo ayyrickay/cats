@@ -4,6 +4,9 @@ A simple app that renders a grid of cat photos/facts, and allows users to delete
 ## time to complete
 From start to finish, this app probably took 8 - 10 hours. I had to brush up on Redux (I've been using MobX for the past few months) and I really agonized over my data fetching patterns (despite still not being happy with how it turned out.) I also played around with functional components, which felt more Redux-y, in place of ES6 class components.
 
+## running the app
+npm install for dependencies, npm start to launch the app on localhost
+
 ## tooling & design choices
 #### webpack 2
 Yolo.
