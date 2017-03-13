@@ -1,3 +1,4 @@
+// Understands how to render a card with a cat and a fact
 import React from 'react'
 
 const Card = (card) =>
