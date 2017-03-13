@@ -1,4 +1,4 @@
-// Understands how to render a grid of cards
+// Understands how to render and interact with a list of cards
 import React from 'react'
 import { connect } from 'react-redux'
 import { deleteCard } from '../reducer/cards/actions.js'
